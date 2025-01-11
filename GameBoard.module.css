@@ -1,0 +1,40 @@
+.gameBoard {
+  border-radius: 10px;
+  background: #e0e5ec;
+  box-shadow: 
+    8px 8px 16px #bec3c9,
+    -8px -8px 16px #ffffff;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border-radius: 4px;
+  margin: 1px;
+  transition: all 0.3s ease;
+}
+
+.empty {
+  background: #e0e5ec;
+  box-shadow: 
+    inset 2px 2px 4px #bec3c9,
+    inset -2px -2px 4px #ffffff;
+}
+
+.color1 { background-color: #ff6b6b; }
+.color2 { background-color: #4ecdc4; }
+.color3 { background-color: #45b7d1; }
+.color4 { background-color: #f9d56e; }
+.color5 { background-color: #ff8e72; }
+.color6 { background-color: #e84a5f; }
+.color7 { background-color: #a8e6cf; }
+
+.color1, .color2, .color3, .color4, .color5, .color6, .color7 {
+  box-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.1),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
