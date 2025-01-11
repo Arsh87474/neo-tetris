@@ -14,19 +14,7 @@ This project is a modern take on the classic Tetris game, featuring a sleek and 
 
 - **HTML5**: For structuring the webpage.
 - **CSS3**: To achieve the neomorphic design and responsiveness.
-- **JavaScript**: For game logic and interactivity.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/tetris-neomorphic.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd tetris-neomorphic
-   ```
-3. Open `index.html` in your preferred browser.
+- **TypeScript**: For game logic and interactivity.
 
 ## How to Play
 
